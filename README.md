@@ -8,6 +8,8 @@
 на PS Vita. Оригинальный ARMv7-код движка **ShiVa3D** (`libS3DClient.so`)
 загружается через so-loader; файлов игры в репозитории нет.
 
+**Версия порта: 1.0.0** · [Скачать VPK](https://github.com/theFilthyAnimal/EarthAndLegend-Vita/releases/latest)
+
 <a id="russian"></a>
 
 ## Правовая информация
@@ -151,6 +153,8 @@ A port of the Android game **Earth And Legend 3.0.0**
 (`com.dvidearts.earthandlegend`) to the PS Vita. The original ARMv7 **ShiVa3D**
 engine code (`libS3DClient.so`) is loaded through so-loader; the repository
 contains no game files.
+
+**Port version: 1.0.0** · [Download VPK](https://github.com/theFilthyAnimal/EarthAndLegend-Vita/releases/latest)
 
 ## Legal notice
 
