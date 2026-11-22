@@ -27,6 +27,13 @@
 дня и ночи, погода. Многопользовательский режим не работает — серверы закрыты.
 Порт рассчитан только на версию **3.0.0**.
 
+## Скриншоты
+
+| | |
+|---|---|
+| ![Диалог с NPC](screenshots/dialogue.jpg) | ![Бой с кабанами](screenshots/combat.jpg) |
+| ![Улица города](screenshots/town.jpg) | ![Плавание под дождём](screenshots/swimming.jpg) |
+
 ## Управление
 
 | PS Vita | Действие |
@@ -161,6 +168,13 @@ DVide Arts. The MIT license in [LICENSE](LICENSE) covers the port's code only.
 armour, combat and magic skills, inventory, world map, day/night cycle and
 weather. Multiplayer no longer works — the servers are gone. The port targets
 version **3.0.0** only.
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Dialogue with an NPC](screenshots/dialogue.jpg) | ![Combat with boars](screenshots/combat.jpg) |
+| ![Town street](screenshots/town.jpg) | ![Swimming in the rain](screenshots/swimming.jpg) |
 
 ## Controls
 
