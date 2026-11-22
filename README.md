@@ -36,6 +36,7 @@
 | Cross | Взаимодействие и умение |
 | Square | Умение |
 | Circle | Умение / «назад» |
+| Triangle | Бег |
 | L1 / R1 | Наборы умений |
 | START | Инвентарь |
 | SELECT | Карта |
@@ -170,6 +171,7 @@ version **3.0.0** only.
 | Cross | Interact and use a skill |
 | Square | Skill |
 | Circle | Skill / "back" |
+| Triangle | Run |
 | L1 / R1 | Skill sets |
 | START | Inventory |
 | SELECT | Map |

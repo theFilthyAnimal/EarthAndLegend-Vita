@@ -166,13 +166,15 @@ static const ButtonMapping mapping[] = {
     { SCE_CTRL_CROSS,  AKEYCODE_DPAD_CENTER },
     { SCE_CTRL_CIRCLE, AKEYCODE_BACK },
     { SCE_CTRL_SQUARE, AKEYCODE_BUTTON_X },
+    { SCE_CTRL_TRIANGLE, AKEYCODE_BUTTON_Y },
     { SCE_CTRL_L1,     AKEYCODE_BUTTON_L1 },
     { SCE_CTRL_R1,     AKEYCODE_BUTTON_R1 },
 };
 
 #define MAPPED_MASK (SCE_CTRL_UP | SCE_CTRL_DOWN | SCE_CTRL_LEFT | \
                      SCE_CTRL_RIGHT | SCE_CTRL_CROSS | SCE_CTRL_CIRCLE | \
-                     SCE_CTRL_SQUARE | SCE_CTRL_L1 | SCE_CTRL_R1)
+                     SCE_CTRL_SQUARE | SCE_CTRL_TRIANGLE | SCE_CTRL_L1 | \
+                     SCE_CTRL_R1)
 
 static uint32_t current_buttons = 0;
 static uint32_t forwarded_buttons = 0;
