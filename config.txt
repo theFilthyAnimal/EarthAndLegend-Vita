@@ -1,0 +1,57 @@
+# Earth And Legend (PS Vita) configuration
+# Optional: copy this file to ux0:data/earthandlegend/config.txt.
+# The values below are the defaults; the game works without this file.
+
+# Native audio backend (OpenAL -> sceAudioOut):
+#   1 - music and sound effects (default)
+#   0 - completely silent
+setting_openal 1
+
+# Allow mipmap sampling (1) or force the base mip level (0).
+# Keep 0 if UI textures show pixel artifacts.
+setting_mipmaps 0
+
+# Decode DXT textures to RGBA on the CPU (1) or upload them as native GXM
+# UBC textures (0). 1 fixes block artifacts on this engine build.
+setting_dxtDecode 1
+
+# Decoded texture format when setting_dxtDecode is 1:
+#   0 - RGBA8888 (best quality, 4 bytes per texel)
+#   1 - RGB565 / RGBA4444 (half the memory, default)
+setting_dxtFormat 1
+
+# 3.0.0 uses the engine's asynchronous renderer by default.
+#   0 - asynchronous renderer (faster, default)
+#   1 - force the synchronous path (slower, for debugging)
+setting_v3Sync 0
+
+# Number of CPU cores reported to the engine:
+#   0 - auto (3 user cores, default)
+#   1 - single-threaded (use if multi-threading is unstable)
+#   2..3 - exact number
+setting_cpuCount 0
+
+# Keep a read cache for S3DMain.stk in RAM (1, default) or read the file
+# directly (0). The pack is read through very small calls, which is slow on
+# the Vita memory card.
+setting_packCache 1
+
+# 1 - wait for vblank (no tearing, default)
+# 0 - present immediately (smoother frame times, may tear)
+setting_vsync 1
+
+# Right-stick camera drag: anchor point on the 960x544 screen and speed in
+# pixels per 1/60 s at full tilt. The speed is scaled by the real frame time,
+# so the camera turns at the same rate at any frame rate.
+setting_cameraAnchorX 720
+setting_cameraAnchorY 272
+setting_cameraSpeed 6
+
+# START / SELECT tap coordinates on the 960x544 HUD:
+#   START  - top-left portrait (inventory)
+#   SELECT - bottom-left globe (map)
+# Both are plain taps: nothing else is changed while a screen is open.
+setting_startTapX 50
+setting_startTapY 28
+setting_selectTapX 50
+setting_selectTapY 485
